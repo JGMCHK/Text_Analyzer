@@ -1,0 +1,14 @@
+name: Run_Test
+
+on: [push, pull_request]
+
+permissions:
+    contents: read
+    packages: write
+
+jobs: 
+    test:
+        runs-on: ubuntu-latest
+
+        steps: 
+            
